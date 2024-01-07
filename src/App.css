@@ -1,0 +1,288 @@
+body{
+    background-color: rgb(185, 185, 229);
+    font-size: 16px;
+}
+article{
+    width: 1000px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    padding: 20px;
+}
+/* 윗부분 */
+.reservation{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.reservation>h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #333;
+}
+
+/* search */
+.search{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.search>input{
+    width: 94%;
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+}
+
+/* infomation */
+.infomation{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* system */
+.system{
+    width: 450px;
+    border: 2px solid #666;
+    height: 100%;
+}
+.system>h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #352733;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+}
+.system>.systemName{
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.system>.systemName>li{
+    margin-right: 8px;
+}
+
+/* reserve=>ul */
+.reserve{
+    padding: 5px;
+}
+.reserve>li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* 공통 부분 */
+.reserve>li>input{
+    display: inline-block;
+    width: 95%;
+    font-size: 18px;
+    padding: 3px;
+}
+.reserve>li>span{}
+.reserve>li>label{
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    font-weight: bold;
+}
+/*  */
+
+.reserve>li:first-child{
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.reserve>li:first-child>select{
+    width: 42%;
+    font-size: 18px;
+    padding: 3px;
+}
+.reserve>li:first-child>span{
+    display: inline-block;
+    font-size: 18px;
+}
+.reserve>li:nth-child(4){
+    margin-bottom: 25px;
+}
+/* li=>5번째 다름 */
+/* .reserve>li:nth-child(5){
+    width: 97%;
+}
+.reserve>li:nth-child(5)>dl{
+
+}
+.reserve>li:nth-child(5)>dl>dt{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.reserve>li:nth-child(5)>dl>dd{
+    margin-bottom: 10px;
+}
+.reserve>li:nth-child(5)>dl>dd:last-child{
+    margin-bottom: 20px;
+}
+.reserve>li:nth-child(5)>dl>dd>label{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+.reserve>li:nth-child(5)>dl>dd>input{
+    width: 15%;
+    font-size: 13px;
+    padding: 3px;
+    text-align: center;
+}
+.reserve>li:nth-child(5)>dl>dd>button{
+   margin-right: 5px;
+   font-size: 15px;
+   background-color: #352733;
+   color: #fff;
+   border: 1px solid #352733;
+   border-radius: 4px;
+}
+.reserve>li:nth-child(5)>dl>dd>button:nth-child(4){
+   margin-left: 5px;
+} */
+/*  */
+/* li=>6번째 다름 */
+.reserve>li:nth-child(5){
+}
+.reserve>li:nth-child(5)>span{
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+}
+.reserve>li:nth-child(5)>button{
+    width: 30%;
+    height: 35px;
+    margin-right: 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.reserve>li:nth-child(5)>button:active{
+    background-color: #352733;
+    color: #fff;
+}
+/*  */
+.reserve>button{
+    width: 97%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #352733;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* list */
+.list{
+    width: 520px;
+    border: 2px solid #666;
+}
+.list>div{
+   position: relative;
+}
+.list>div>h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #352733;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+}
+.list>div>button{
+    position: absolute;
+    right: 0; top: 0;
+    width: 30%;
+    height: 35px;
+    background-color: #352733;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.list>div>ul{
+    position: absolute;
+    right: 0; top: 35px;
+    background-color: #352733;
+    width: 30%;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+.list>div>ul>li{
+    padding:  10px 6px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.list>ul{
+    padding: 5px;
+}
+.list>ul>li{
+    border-bottom: 1px solid #333;
+    padding: 10px 5px;
+}
+.list>ul>li:last-child{
+    border-bottom: none;
+}
+.list>ul>li>dl{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+}
+.list>ul>li>dl>dt{
+    font-size: 14px;
+    color: rgb(78, 78, 207);
+}
+.list>ul>li>dl>dt:first-child{
+    position: absolute;
+    left: 0; top: 0;
+}
+.list>ul>li>dl>dd:nth-child(2){
+    position: absolute;
+    left: 12%; top: 0;
+}
+.list>ul>li>dl>dt:nth-child(3)
+{
+    position: absolute;
+    left: 45%; top: 0;
+}
+.list>ul>li>dl>dd:nth-child(4)
+{
+    position: absolute;
+    left: 55%; top: 0;
+}
+.list>ul>li>dl>dd:nth-child(5){
+    position: absolute;
+    right: 0; top: 0;
+}
+
+.list>ul>li>dl>dd{
+    font-size: 20px;
+}
+.list>ul>li>dl>dd>dfn{
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.list>ul>li>dl>dd:last-child>button{
+    width: 60px;
+    height: 100%;
+    padding: 5px;
+    font-size: 16px;
+}

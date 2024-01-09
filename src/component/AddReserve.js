@@ -41,6 +41,7 @@ export default function AddReserve({onChangeWrite}){
             <AddSelect formData={formData}
                        setFormData={setFormData}
                        data={data}/>
+                       {/* 2. error or fix here */}
             <button type="submit"
                     onClick={writePublish}>예매하기</button>
          </ul>

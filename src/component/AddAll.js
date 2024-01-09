@@ -33,6 +33,7 @@ export default function AddAll({list,setList,sortBy,setSortBy,dataChange,onChang
 
             {/* 예약 리스트 */}
             <ul>
+               {/* 1. I can not understand it */}
                {dataChange.map((item)=>
                 <AddInfo key={item.id}
                          info={item}

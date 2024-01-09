@@ -57,6 +57,7 @@ export default function AddSelect({formData,setFormData,data}){
          {/* 5 */}
          <li>
             <span>좌석등급 선택</span>
+            {/* 3. I can not understand it */}
             <button type='button'
                     value="이코노미"
                     onClick={(e)=>setFormData({...formData,seat:e.target.value})}>이코노미</button>
